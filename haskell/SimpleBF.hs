@@ -27,7 +27,7 @@ step st = case elem of
     ']' -> return st {curProg = (clsLoop st)}
     '.' -> writeVal st 
     ',' -> readVal st
-    '#' -> return st {debug = True, curProg = (curProg st) + 1}
+    '#' -> return st {debug = (debug st) == False, curProg = (curProg st) + 1}
 
     _   -> return st {curProg = (curProg st) + 1}
 

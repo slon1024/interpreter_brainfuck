@@ -1,4 +1,4 @@
-class Interpret
+class Interpreter
   MAX_VALUE = 256
   def initialize(capTape = 10)
     @capTape = capTape
@@ -58,5 +58,5 @@ class Interpret
   end
 end
 
-interpret = Interpret.new
-interpret.run("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.")
+interpreter = Interpreter.new
+interpreter.run("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.")

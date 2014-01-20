@@ -11,7 +11,7 @@ class Interpret
     @prog = prog
     while @curProg < prog.size do
       step @prog[@curProg]
-      if @debug then puts "(#{@curProg}, #{@curTape}): " + @tape.join(' ') end
+      puts "(#{@curProg}, #{@curTape}): " + @tape.join(' ') if @debug
     end
   end
 

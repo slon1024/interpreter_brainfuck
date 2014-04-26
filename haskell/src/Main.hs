@@ -1,4 +1,4 @@
-module SimpleBF where
+module Main where
 import Data.Word
 import Data.Char
 

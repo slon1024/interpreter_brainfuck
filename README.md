@@ -1,14 +1,11 @@
-Interpreter BrainFuck
+Interpreter Brainfuck
 =====================
 
-Implementation of an interpreter for the language of BrainFuck.
+Implementation of an interpreter of [Brainfuck].
 
 ## Languages:
 * [Haskell]
 * [Ruby]
-
-[Haskell]:https://github.com/slon1024/interpreter_brainfuck/tree/master/haskell
-[Ruby]:https://github.com/slon1024/interpreter_brainfuck/tree/master/ruby
 
 
 ## Contributing
@@ -17,3 +14,7 @@ Implementation of an interpreter for the language of BrainFuck.
 * Commit your changes (`git commit -am 'Added some feature'`)
 * Push to the branch (`git push origin my-new-feature`)
 * Create new *Pull Request*
+
+[Brainfuck]: http://en.wikipedia.org/wiki/Brainfuck
+[Haskell]:https://github.com/slon1024/interpreter_brainfuck/tree/master/haskell
+[Ruby]:https://github.com/slon1024/interpreter_brainfuck/tree/master/ruby
